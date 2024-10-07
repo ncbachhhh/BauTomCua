@@ -23,6 +23,7 @@ main {
 }
 
 .start_btn {
+  margin: 20px 0 20px 0;
   position: relative;
   left: 80%;
 }
@@ -41,6 +42,7 @@ main {
   display: flex;
   justify-content: center;
   gap: 10px;
+  margin-bottom: 20px;
 }
 
 .choose_img {
@@ -58,6 +60,10 @@ main {
   top: 8%;
   font-size: 25px;
   font-weight: 700;
+}
+
+.choose_img > p {
+  display: none;
 }
 
 .note_container {
@@ -84,5 +90,6 @@ main {
   font-size: 15px;
   font-weight: 600;
 }
+
 
 
