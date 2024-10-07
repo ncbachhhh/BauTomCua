@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 100px 0 0 0;
+}
+
+.result_img {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.result_img > img {
+  height: 150px;
+  border: 1px solid black;
+}
+
+.start_btn {
+  position: relative;
+  left: 80%;
+}
+
+.start_btn > button {
+  background-color: rgb(74, 223, 74);
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.choose_img_container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.choose_img {
+  position: relative;
+}
+
+.choose_img > img {
+  height: 150px;
+  border: 1px solid black;
+}
+
+.choose_img > span {
+  position: absolute;
+  left: 8%;
+  top: 8%;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.note_container {
+  position: relative;
+  padding-left: 10%;
+}
+
+.note {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.re_choose_btn {
+  position: absolute;
+  top: 0;
+  left: 80%;
+}
+
+.re_choose_btn > button {
+  background-color: rgb(74, 223, 74);
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+
