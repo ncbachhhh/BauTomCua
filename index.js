@@ -137,7 +137,7 @@ function getUserSelection() {
       }
     }
   });
-  localStorage.setItem("userSelection", JSON.stringify(checkArr));
+  localStorage.setItem("userSelection", JSON.stringify(checkArr.sort()));
 }
 
 // HÀM LẤY KẾT QUẢ
